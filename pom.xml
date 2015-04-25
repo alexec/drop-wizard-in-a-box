@@ -12,6 +12,17 @@
         <dropwizard.version>0.6.2</dropwizard.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>sonatype-staging</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>
