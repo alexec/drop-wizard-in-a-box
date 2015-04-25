@@ -17,9 +17,9 @@
             <id>sonatype-staging</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
             <layout>default</layout>
-            <releases>
+            <snapshots>
                 <enabled>true</enabled>
-            </releases>
+            </snapshots>
         </repository>
     </repositories>
 
