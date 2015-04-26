@@ -3,12 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
-
     <groupId>drop-wizard-in-a-box</groupId>
     <artifactId>drop-wizard-in-a-box</artifactId>
     <version>1.0.0-SNAPSHOT</version>
@@ -17,6 +11,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dropwizard.version>0.6.2</dropwizard.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <pluginRepositories>
         <pluginRepository>
