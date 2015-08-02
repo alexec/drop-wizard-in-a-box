@@ -1,3 +1,5 @@
 ports:
   - 3306
-sleep: 5000
+healthChecks:
+  logPatterns:
+    - "ready for connections"
